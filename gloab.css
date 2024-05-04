@@ -1,0 +1,83 @@
+h2{
+    color: green;
+}
+.classSelector{
+    color: red;
+}
+#idSelector{
+    color: blue;
+}
+
+.father .son{
+    
+        color:red;
+}
+.violet{
+    color: violet;
+}
+.text-lg{
+    font-size: 24px;
+}
+.text-center{
+    text-align: center;
+}
+
+.text-1{
+font-family: sans-serif;
+}
+.text-2{
+    font-size: 24px;
+    line-height: 32px;
+    text-decoration: overline;
+}
+.text-3{
+    font-weight: 200 ;
+    font-style: italic;
+    text-decoration: line-through;
+}
+.box-model{
+   /*margin-right: 10px;
+    padding-top: 8px;*/
+    margin: 6px 12px;
+    border: 2px dotted black;
+    width: 88px;
+}
+.block{
+    display: block;
+}
+.inline{
+    display: inline;
+}
+.inline-block{
+    display: inline-block;
+    width: 100px;
+    height: 120px;
+}
+.none{
+    display: none;
+}
+.flex{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-end;
+}
+.grid{
+    display: grid;
+    grid-template-rows: 100px 200px 300px;
+    grid-template-columns: 1fr 2fr;
+}
+
+.relative{
+    position: relative;
+    height: 400px;
+    background-color: violet;
+}
+.absolute{
+    position: absolute;
+    top: 50%;
+    left:50% ;
+    transform: translate(-50%,-50%);
+}
+.fixed{
+    position: fixed;
+}
